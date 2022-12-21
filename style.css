@@ -1,0 +1,203 @@
+/* General settings */
+
+html{
+    background: rgb(167, 165, 165);
+}
+
+body {
+    background: #1F2937;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    max-width: 1200px;
+  }
+
+  /* Fonts */
+
+  h1{
+    font-size: 3rem;
+    
+  }
+
+  a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    /* font-weight: 700; */
+    
+  }
+
+  /* Header */
+.header{
+    display: flex;
+    /* border: solid 1px red; */
+    justify-content: space-between;
+    background: #1F2937;
+    color: white;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 200px 20px 200px;
+    }
+
+.header_right ul{
+  display: flex;
+  font-size: 1.1rem;
+  list-style: none;
+  font-weight: 300;
+  
+}
+
+/* Hero */
+.hero{
+  display: flex;
+  /* border: solid 1px red; */
+  color: white;
+  background: #1f2937;
+  justify-content: space-between;
+  padding:50px 150px;
+}
+
+.hero_left{
+  background: #1F2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px blue; */
+  width: 500px;
+  padding: 50px;
+}
+
+.hero_right{
+  
+  /* border: solid 1px rgb(158, 34, 131); */
+  width: 500px;
+  background: rgb(218, 216, 216);
+  margin: 80px 0px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_left h2{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.hero_button{
+
+    display: flex;
+    justify-content: center;
+    padding: 80px 10px 10px 10px;
+}
+
+.hero_button .hero_signup{
+  color: white;
+  background: rgba(142, 140, 255, 0.521);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+}
+
+/* Cards */
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: solid 10px rgb(120, 63, 228); */
+  padding: 50px 0px;
+  height: 500px;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+    
+}
+
+
+
+.all_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid 1px lime;   */
+  padding: 50px 20px;
+  width: 800px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card_box{
+  width: 150px;
+  height: 150px;
+  border: rgb(98, 98, 221) solid 4px;
+  border-radius: 15px;
+  background: white;
+  
+}
+
+
+
+/* Quote */
+.quote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E5E7EB;
+  font-size: 2.2rem;
+  padding: 200px 150px;
+  font-weight: 300;
+}
+
+.signup{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 200px 100px 100px 100px;
+  color: white;
+  font-size: 2rem;
+  /* border: blue solid 2px; */
+  /* width: 1000px; */
+}
+
+.text{
+  padding: 0px 50px;
+}
+
+.signup_items{
+  display: flex;
+  justify-content: space-between;
+  /* width: 200px; */
+}
+
+/* Footer */
+
+.footer{
+  display:flex;
+  justify-content: center;
+  
+  color: rgb(253, 200, 24);
+  font-size: 1.2rem;
+
+
+}
+
+.button{
+  font-size: 2rem;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+}
